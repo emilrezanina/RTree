@@ -1,0 +1,5 @@
+C:\Users\emre0366\Dropbox\Projekty\IDSDSPracticalPart\RTree\bin\Debug\RTree.dll
+C:\Users\emre0366\Dropbox\Projekty\IDSDSPracticalPart\RTree\bin\Debug\RTree.pdb
+C:\Users\emre0366\Dropbox\Projekty\IDSDSPracticalPart\RTree\obj\Debug\RTree.csprojResolveAssemblyReference.cache
+C:\Users\emre0366\Dropbox\Projekty\IDSDSPracticalPart\RTree\obj\Debug\RTree.dll
+C:\Users\emre0366\Dropbox\Projekty\IDSDSPracticalPart\RTree\obj\Debug\RTree.pdb

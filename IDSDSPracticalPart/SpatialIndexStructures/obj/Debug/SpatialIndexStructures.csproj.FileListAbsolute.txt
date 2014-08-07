@@ -1,0 +1,15 @@
+C:\Users\emre0366\Dropbox\Projekty\IDSDSPracticalPart\RTree\bin\Debug\RTree.dll
+C:\Users\emre0366\Dropbox\Projekty\IDSDSPracticalPart\RTree\bin\Debug\RTree.pdb
+C:\Users\emre0366\Dropbox\Projekty\IDSDSPracticalPart\RTree\obj\Debug\RTree.dll
+C:\Users\emre0366\Dropbox\Projekty\IDSDSPracticalPart\RTree\obj\Debug\RTree.pdb
+C:\Users\emre0366\Dropbox\Projekty\IDSDSPracticalPart\RTree\obj\Debug\SpatialIndexStructures.csprojResolveAssemblyReference.cache
+C:\Users\emre0366\Dropbox\Projekty\IDSDSPracticalPart\SpatialIndexStructures\bin\Debug\SpatialIndexStructures.dll
+C:\Users\emre0366\Dropbox\Projekty\IDSDSPracticalPart\SpatialIndexStructures\bin\Debug\SpatialIndexStructures.pdb
+C:\Users\emre0366\Dropbox\Projekty\IDSDSPracticalPart\SpatialIndexStructures\obj\Debug\SpatialIndexStructures.csprojResolveAssemblyReference.cache
+C:\Users\emre0366\Dropbox\Projekty\IDSDSPracticalPart\SpatialIndexStructures\obj\Debug\SpatialIndexStructures.dll
+C:\Users\emre0366\Dropbox\Projekty\IDSDSPracticalPart\SpatialIndexStructures\obj\Debug\SpatialIndexStructures.pdb
+C:\Users\Rezanina\Dropbox\Projekty\IDSDSPracticalPart\SpatialIndexStructures\bin\Debug\SpatialIndexStructures.dll
+C:\Users\Rezanina\Dropbox\Projekty\IDSDSPracticalPart\SpatialIndexStructures\bin\Debug\SpatialIndexStructures.pdb
+C:\Users\Rezanina\Dropbox\Projekty\IDSDSPracticalPart\SpatialIndexStructures\obj\Debug\SpatialIndexStructures.dll
+C:\Users\Rezanina\Dropbox\Projekty\IDSDSPracticalPart\SpatialIndexStructures\obj\Debug\SpatialIndexStructures.pdb
+C:\Users\Rezanina\Dropbox\Projekty\IDSDSPracticalPart\SpatialIndexStructures\obj\Debug\SpatialIndexStructures.csprojResolveAssemblyReference.cache
