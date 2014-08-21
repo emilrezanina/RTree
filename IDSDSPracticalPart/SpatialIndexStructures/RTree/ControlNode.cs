@@ -27,7 +27,6 @@ namespace SpatialIndexStructures.RTree
 
         public int ChildrenCount { get { return Children.Count; } }
         public int EntriesCount { get { return Entries.Count;  } }
-        public int EmptySlotCount { get { return MinCapacity - (IsLeaf() ? EntriesCount : ChildrenCount); } }
         public ControlNode GetChild(int index)
         {
             return Children[index];

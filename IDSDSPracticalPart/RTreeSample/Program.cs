@@ -8,28 +8,12 @@ namespace RTreeSample
     
     class Program
     {
-        private static double NextDouble(Random random)
-        {
-            return random.Next(0, 10);
-        }
-
         static void Main(string[] args)
         {
             //Zadani1();
             //Zadani2();
             //Zadani3();
             Zadani4();
-            ISpatialIndex rtree = new RTree(4);
-            var random = new Random((int) DateTime.Now.Ticks);
-            const int generatedNumberCount = 20;
-            var deletedPoint = new Point(0, 0);
-            for (var index = 0; index < generatedNumberCount; index++)
-            {
-                var point = new Point(NextDouble(random), NextDouble(random));
-                if (index == 3) deletedPoint = point; 
-                rtree.Insert(point);
-            }
-            rtree.Delete(deletedPoint);
         }
 
         private static void Zadani4()
