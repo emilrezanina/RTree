@@ -94,7 +94,7 @@ namespace SpatialIndexStructures.RTree
 
         public bool Contain(Entry searchedEntry)
         {
-            return Entries.Any(entry => entry.Geometry.Equals(searchedEntry.Geometry));
+            return Entries.Any(entry => entry.GetGeometry().Equals(searchedEntry.GetGeometry()));
         }
 
         public void RemoveEntry(Entry entry)

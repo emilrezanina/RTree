@@ -66,7 +66,7 @@ namespace SpatialIndexStructures.RTree
                 for (var index = 0; index < actualNode.ChildrenCount; index++)
                 {
                     var actualChild = actualNode.GetChild(index);
-                    var nodeExtension = actualChild.Mbr.Distance(entry.Geometry.ToRectangle());
+                    var nodeExtension = actualChild.Mbr.Distance(entry.GetGeometry().ToRectangle());
                     if (nodeExtension < smallestExtension.Key
                         || (nodeExtension.Equals(smallestExtension.Key) && !actualChild.HasGreaterMbr(smallestExtension.Value)))
                         smallestExtension = new KeyValuePair<double, ControlNode>(nodeExtension, actualChild);
@@ -277,7 +277,7 @@ namespace SpatialIndexStructures.RTree
                     else
                     {
                         foreach (var entry in controlNode.Entries)
-                            entities.Add(entry.Geometry);
+                            entities.Add(entry.GetGeometry());
                     }
                 }
                 sourceData.Remove(controlNode);
@@ -309,9 +309,9 @@ namespace SpatialIndexStructures.RTree
             }
             else
             {
-                foreach (var entry in node.Entries.Where(entry => area.Overlap(new Rectangle(entry.Geometry.ToRectangle()))))
+                foreach (var entry in node.Entries.Where(entry => area.Overlap(new Rectangle(entry.GetGeometry().ToRectangle()))))
                 {
-                    foundData.Add(entry.Geometry);
+                    foundData.Add(entry.GetGeometry());
                 }
             }
         }

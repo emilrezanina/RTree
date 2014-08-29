@@ -5,25 +5,25 @@ namespace SpatialIndexStructures.RTree
 {
     class Entry : Node, IEquatable<Entry>
     {
-        public ISpatialData Geometry { get; set; }
+        private readonly ISpatialData _geometry;
         public Entry(ISpatialData geometry, int maxCapacity) : base(maxCapacity)
         {
-            Geometry = geometry;
+            _geometry = geometry;
         }
 
         public override ISpatialData GetGeometry()
         {
-            return Geometry;
+            return _geometry;
         }
 
         public bool Equals(Entry other)
         {
-            return Geometry.Equals(other.Geometry);
+            return _geometry.Equals(other._geometry);
         }
 
         public override string ToString()
         {
-            return Geometry.ToString();
+            return _geometry.ToString();
         }
     }
 }

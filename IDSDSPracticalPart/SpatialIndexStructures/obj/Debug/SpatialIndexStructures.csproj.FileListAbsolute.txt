@@ -13,3 +13,7 @@ C:\Users\Rezanina\Dropbox\Projekty\IDSDSPracticalPart\SpatialIndexStructures\bin
 C:\Users\Rezanina\Dropbox\Projekty\IDSDSPracticalPart\SpatialIndexStructures\obj\Debug\SpatialIndexStructures.dll
 C:\Users\Rezanina\Dropbox\Projekty\IDSDSPracticalPart\SpatialIndexStructures\obj\Debug\SpatialIndexStructures.pdb
 C:\Users\Rezanina\Dropbox\Projekty\IDSDSPracticalPart\SpatialIndexStructures\obj\Debug\SpatialIndexStructures.csprojResolveAssemblyReference.cache
+C:\Users\Rezanina\Documents\GitHub\RTree\IDSDSPracticalPart\SpatialIndexStructures\bin\Debug\SpatialIndexStructures.dll
+C:\Users\Rezanina\Documents\GitHub\RTree\IDSDSPracticalPart\SpatialIndexStructures\bin\Debug\SpatialIndexStructures.pdb
+C:\Users\Rezanina\Documents\GitHub\RTree\IDSDSPracticalPart\SpatialIndexStructures\obj\Debug\SpatialIndexStructures.dll
+C:\Users\Rezanina\Documents\GitHub\RTree\IDSDSPracticalPart\SpatialIndexStructures\obj\Debug\SpatialIndexStructures.pdb
