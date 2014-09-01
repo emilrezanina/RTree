@@ -37,6 +37,11 @@ namespace SpatialIndexStructures.RTree
             return MaxCapacity == (IsLeaf() ? Entries.Count : Children.Count);
         }
 
+        public bool IsEmpty()
+        {
+            return (IsLeaf() ? EntriesCount : ChildrenCount) == 0;
+        }
+
         public bool IsOverflow()
         {
             return MaxCapacity < (IsLeaf() ? EntriesCount : ChildrenCount);
