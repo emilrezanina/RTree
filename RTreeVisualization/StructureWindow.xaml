@@ -1,0 +1,10 @@
+﻿<Window x:Class="RTreeVisualization.StructureWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="RTree StructureWindow" Height="300" Width="600" ResizeMode="NoResize" Icon="Resources/bear.ico" ShowInTaskbar="False" Topmost="True" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <TreeView Name="RTreeView"
+            HorizontalAlignment="Left" Height="250" Margin="10,10,0,0" VerticalAlignment="Top" Width="574"/>
+
+    </Grid>
+</Window>

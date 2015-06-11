@@ -1,0 +1,44 @@
+﻿<Application x:Class="RTreeVisualization.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <Style x:Key="PointStyle" TargetType="Ellipse">
+            <Setter Property="Width" Value="5"></Setter>
+            <Setter Property="Height" Value="5"></Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Fill" Value="DarkOrange" />
+                    <Setter Property="Stroke" Value="Black" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        <Style x:Key="NewPointStyle" BasedOn="{StaticResource PointStyle}" TargetType="Ellipse">
+            <Setter Property="Fill" Value="DarkGreen" />
+        </Style>
+        <Style x:Key="EntityStyle" BasedOn="{StaticResource PointStyle}" TargetType="Ellipse">
+            <Setter Property="Fill" Value="DarkRed" />
+        </Style>
+        <Style x:Key="RegionStyle" TargetType="Rectangle">
+            <Setter Property="Stroke" Value="DarkBlue"></Setter>
+            <Setter Property="StrokeDashArray" Value="2"></Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Fill" Value="DarkOrange" />
+                    <Setter Property="Opacity" Value="0.2" />
+                    <Setter Property="Stroke" Value="Black" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        <Style x:Key="RangeSearchRectangleStyle" TargetType="Rectangle">
+            <Setter Property="Stroke" Value="Black"></Setter>
+            <Setter Property="StrokeDashArray" Value="3"></Setter>
+            <Setter Property="Fill" Value="Red" />
+            <Setter Property="Opacity" Value="0.2" />
+        </Style>
+        <Style x:Key="IconStyle" TargetType="Image">
+            <Setter Property="Width" Value="14" />
+            <Setter Property="Height" Value="18" />
+        </Style>
+    </Application.Resources>
+</Application>
