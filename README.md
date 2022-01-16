@@ -7,7 +7,7 @@ The key idea of the data structure is to group nearby objects and represent them
 
 This implementation of R-Tree structure is aimed to insert, delete and range search methods. (It doesn't implement build method.)
 
-###This Project provides the follwoing functionality:
+### This Project provides the follwoing functionality:
 <ul>
   <li>Create concrete geometric points by mouse or generate it.</li>
   <li>Visualization of R-Tree structure (current and previous state) with MBR.</li>
@@ -15,7 +15,7 @@ This implementation of R-Tree structure is aimed to insert, delete and range sea
   <li>Perform range search.</li>
 </ul>
 
-###Screenshoots:
+### Screenshoots:
 ![visualization RTree](https://github.com/emilrezanina/RTree/blob/master/screenshots/visualizationRTree.PNG)
 ![range search RTree](https://github.com/emilrezanina/RTree/blob/master/screenshots/rangeSearchRTree.PNG)
 
